@@ -13,7 +13,7 @@ const http = require('http');
  
  // Define the port to listen to
  const port = 3000;
- 
+ console.log("Contributing to a shared project");
  // The server listens on port 3000
  server.listen(port, () => {
      console.log(`Server running at http://localhost:${port}/`);
