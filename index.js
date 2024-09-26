@@ -18,3 +18,8 @@ const http = require('http');
  server.listen(port, () => {
      console.log(`Server running at http://localhost:${port}/`);
  });
+
+ //convert the project 
+ //into an express npm project 
+ //then create a get api example http://localhost:3000/hello 
+ //responding json response example {"message":"hello world"}
